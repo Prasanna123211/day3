@@ -1,0 +1,71 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-color: orange;
+    display: flex;
+}
+.childone{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 15px;
+    font-size: 40px;
+
+}
+.childtwo{
+background-color: pink;
+position: absolute;
+height: 100px;
+width: 100px;
+left: 2400px;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
+.childthree{
+background-color: blue;
+position: absolute;
+height: 100px;
+width: 100px;
+bottom: 10px;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+
+}
+.childfour{
+background-color: skyblue;
+position: absolute;
+height: 100px;
+width: 100px;
+bottom: 10px;
+left: 2400px;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
+.childfive{
+background-color: green;
+position: absolute;
+height: 100px;
+width: 100px;
+top: 50%;
+left: 50%;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
